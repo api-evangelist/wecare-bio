@@ -1,7 +1,25 @@
 aid: wecare-bio
-name: wecare-bio
-description: wecare-bio is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wecare-bio.png
+name: Wecare Probiotics
+description: Wecare Probiotics (微康益生菌) is a Chinese biotechnology company specializing in probiotic
+  strain research, intelligent manufacturing, and application solutions for the food, nutrition, and
+  agriculture industries. It operates three research institutes and five intelligent manufacturing
+  facilities across Suzhou, Luohe, and Wuhan, producing product lines including WecLac probiotics,
+  WecPro formula, and WecCul. Its BLa80 strain became the first probiotic strain approved for infant
+  food in mainland China. The company presents a corporate information website only; no public developer
+  portal, API, or technical documentation is published, so this profile carries company identity rather
+  than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/wecare-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Probiotics
+- Biotechnology
+- Life Sciences
+- Manufacturing
+- Nutrition
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://wecare-bio.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
